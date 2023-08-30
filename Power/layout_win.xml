@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <grid>
+    <row>
+      <button text="Restart" onTap="restart" color="blue" />
+      <button text="Shutdown" onTap="shutdown" color="blue" />
+    </row>
+    <row>
+      <button text="Monitor On" onTap="turn_on" color="green" />
+    </row>
+    <row>
+      <button text="Monitor Off" onTap="turn_off" color="red" />
+    </row>
+  </grid>
+</layout>
